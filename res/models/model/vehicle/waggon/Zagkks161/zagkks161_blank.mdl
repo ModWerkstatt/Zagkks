@@ -1,0 +1,763 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 8.1183786392212, 1.3686640262604, 6.8856077194214, },
+		bbMin = { -8.1183786392212, -1.3828443288803, 0.23290126025677, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 8.1183786392212, 1.3757541179657, 3.3263533115387, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 0.99522715806961, -1.3366779967328e-06, 0.09758286178112, 0, 0.00017165708413813, 0.99999713897705, -0.0017369966953993, 0, -0.097582675516605, 0.0017454588087276, 0.99522525072098, 0, -7.6999998092651, -0.94999998807907, 1.5900000333786, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 0.99522715806961, -1.3366779967328e-06, 0.097582839429379, 0, 0.00017165698227473, 0.99999701976776, -0.001736996229738, 0, -0.097582645714283, 0.001745458226651, 0.99522513151169, 0, -7.6999998092651, 0.94999998807907, 1.5900000333786, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_allesWasDranIs_lod0.msh",
+						name = "jay_mesh_Zagkks_allesWasDranIs",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_bogen_lod0.msh",
+						name = "jay_mesh_Zagkks_bogen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_buhneHalterungen_lod0.msh",
+						name = "jay_mesh_Zagkks_buhneHalterungen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_buhneTritt_lod0.msh",
+						name = "jay_mesh_Zagkks_buhneTritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_halter_lod0.msh",
+						name = "jay_mesh_Zagkks_halter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_hbremse_lod0.msh",
+						name = "jay_mesh_Zagkks_hbremse",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_hebel_lod0.msh",
+						name = "jay_mesh_Zagkks_hebel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_kesselhalterung_lod0.msh",
+						name = "jay_mesh_Zagkks_kesselhalterung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_kupplung_lod0.msh",
+						name = "jay_mesh_Zagkks_kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_seilhaken2_lod0.msh",
+						name = "jay_mesh_Zagkks_seilhaken",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_tritteBuhne_lod0.msh",
+						name = "jay_mesh_Zagkks_tritteBuhne",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_ventile_lod0.msh",
+						name = "jay_mesh_Zagkks_ventile",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_puffer_lod0.msh",
+						name = "jay_mesh_Zagkks_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_kessel_lod0.msh",
+						name = "jay_mesh_Zagkks_kessel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_schilder_lod0.msh",
+						name = "jay_mesh_Zagkks_schilder",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_Zagkks_kesselRillen_lod0.msh",
+						name = "jay_mesh_Zagkks_kesselRillen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_Zagkks_mannloch_lod0.msh",
+						name = "jay_mesh_Zagkks_mannloch",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Gitter.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_gitter_lod0.msh",
+						name = "jay_mesh_Zagkks_gitter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod0.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod0.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_lod0.msh",
+								name = "dg_Tlbot_694",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 5.3299999237061, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod0.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod0.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_lod0.msh",
+								name = "dg_Tlbot_694",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -5.3299999237061, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 72.314628601074,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 0.99522715806961, -1.3366779967328e-06, 0.09758286178112, 0, 0.00017165708413813, 0.99999713897705, -0.0017369966953993, 0, -0.097582675516605, 0.0017454588087276, 0.99522525072098, 0, -7.6999998092651, -0.94999998807907, 1.5900000333786, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 0.99522715806961, -1.3366779967328e-06, 0.097582839429379, 0, 0.00017165698227473, 0.99999701976776, -0.001736996229738, 0, -0.097582645714283, 0.001745458226651, 0.99522513151169, 0, -7.6999998092651, 0.94999998807907, 1.5900000333786, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_allesWasDranIs_lod1.msh",
+						name = "jay_mesh_Zagkks_allesWasDranIs",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_bogen_lod1.msh",
+						name = "jay_mesh_Zagkks_bogen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_buhneHalterungen_lod1.msh",
+						name = "jay_mesh_Zagkks_buhneHalterungen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_buhneTritt_lod1.msh",
+						name = "jay_mesh_Zagkks_buhneTritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_halter_lod1.msh",
+						name = "jay_mesh_Zagkks_halter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_hbremse_lod1.msh",
+						name = "jay_mesh_Zagkks_hbremse",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_hebel_lod1.msh",
+						name = "jay_mesh_Zagkks_hebel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_kesselhalterung_lod1.msh",
+						name = "jay_mesh_Zagkks_kesselhalterung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_seilhaken2_lod1.msh",
+						name = "jay_mesh_Zagkks_seilhaken",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_tritteBuhne_lod1.msh",
+						name = "jay_mesh_Zagkks_tritteBuhne",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_ventile_lod1.msh",
+						name = "jay_mesh_Zagkks_ventile",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_puffer_lod1.msh",
+						name = "jay_mesh_Zagkks_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_kessel_lod1.msh",
+						name = "jay_mesh_Zagkks_kessel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_schilder_lod1.msh",
+						name = "jay_mesh_Zagkks_schilder",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_Zagkks_kesselRillen_lod1.msh",
+						name = "jay_mesh_Zagkks_kesselRillen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_Zagkks_mannloch_lod1.msh",
+						name = "jay_mesh_Zagkks_mannloch",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Gitter.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_gitter_lod0.msh",
+						name = "jay_mesh_Zagkks_gitter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod1.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod1.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_lod1.msh",
+								name = "dg_Tlbot_694",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 5.3299999237061, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod1.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod1.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_lod1.msh",
+								name = "dg_Tlbot_694",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -5.3299999237061, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 72.314628601074,
+			visibleTo = 216.94389343262,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_allesWasDranIs_lod2.msh",
+						name = "jay_mesh_Zagkks_allesWasDranIs",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_buhneHalterungen_lod2.msh",
+						name = "jay_mesh_Zagkks_buhneHalterungen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_buhneTritt_lod2.msh",
+						name = "jay_mesh_Zagkks_buhneTritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_kesselhalterung_lod2.msh",
+						name = "jay_mesh_Zagkks_kesselhalterung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_tritteBuhne_lod2.msh",
+						name = "jay_mesh_Zagkks_tritteBuhne",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_puffer_lod2.msh",
+						name = "jay_mesh_Zagkks_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_kessel_lod2.msh",
+						name = "jay_mesh_Zagkks_kessel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_schilder_lod2.msh",
+						name = "jay_mesh_Zagkks_schilder",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_Zagkks_mannloch_lod2.msh",
+						name = "jay_mesh_Zagkks_mannloch",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Gitter.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_gitter_lod0.msh",
+						name = "jay_mesh_Zagkks_gitter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod2.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod2.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_lod2.msh",
+								name = "dg_Tlbot_694",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 5.3299999237061, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod2.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod2.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_lod2.msh",
+								name = "dg_Tlbot_694",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -5.3299999237061, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 216.94389343262,
+			visibleTo = 650.83166503906,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_kesselhalterung_lod3.msh",
+						name = "jay_mesh_Zagkks_kesselhalterung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/zagkks161/Zagkks_blank.mtl", },
+						mesh = "vehicle/waggon/zagkks161/jay_mesh_zagkks_kessel_lod3.msh",
+						name = "jay_mesh_Zagkks_kessel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod3.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod3.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 5.3299999237061, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod3.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.90906155109406, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_dirty_694.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod3.msh",
+								name = "dg_Tlbot_694_achse",
+								transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.88999998569489, 5.3031476454635e-07, 0.48008731007576, 1, },
+							},
+						},
+						name = "DG_vorne",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -5.3299999237061, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 650.83166503906,
+			visibleTo = 1952.4949951172,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 2000,
+			yearTo = -1,
+		},
+		cargoSlotProvider = {
+			slots = {
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_treibstoff2.mdl", },
+					randomId = 0,
+					transf = { 1.0099999904633, -8.8296992828418e-08, 0, 0, 8.8296992828418e-08, 1.0099999904633, 0, 0, -0, 0, 1.0099999904633, 0, 0.40999999642372, 0.14000000059605, 0.23000000417233, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_treibstoff2.mdl", },
+					randomId = 0,
+					transf = { -1, -6.2783294652036e-07, 0, 0, 6.2783294652036e-07, -1, 0, 0, 0, 0, 1, 0, -0.38999998569489, -0.11999999731779, 0.23999999463558, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_plastik.mdl", },
+					randomId = 0,
+					transf = { 1.0099999904633, -8.8296992828418e-08, 0, 0, 8.8296992828418e-08, 1.0099999904633, 0, 0, -0, 0, 1.0099999904633, 0, 0.40999999642372, 0.14000000059605, 0.23000000417233, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_plastik.mdl", },
+					randomId = 0,
+					transf = { -1, -6.2783294652036e-07, 0, 0, 6.2783294652036e-07, -1, 0, 0, 0, 0, 1, 0, -0.38999998569489, -0.11999999731779, 0.23999999463558, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_treibstoff.mdl", },
+					randomId = 0,
+					transf = { 1.0099999904633, -8.8296992828418e-08, 0, 0, 8.8296992828418e-08, 1.0099999904633, 0, 0, -0, 0, 1.0099999904633, 0, 0.40999999642372, 0.14000000059605, 0.23000000417233, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_treibstoff.mdl", },
+					randomId = 0,
+					transf = { -1, -6.2783294652036e-07, 0, 0, 6.2783294652036e-07, -1, 0, 0, 0, 0, 1, 0, -0.38999998569489, -0.11999999731779, 0.23999999463558, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_treibstoff2.mdl", },
+					randomId = 0,
+					transf = { 1.0099999904633, -8.8296992828418e-08, 0, 0, 8.8296992828418e-08, 1.0099999904633, 0, 0, -0, 0, 1.0099999904633, 0, 0.40999999642372, 0.14000000059605, 0.23000000417233, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/Tafeln/tafel_treibstoff2.mdl", },
+					randomId = 0,
+					transf = { -1, -6.2783294652036e-07, 0, 0, 6.2783294652036e-07, -1, 0, 0, 0, 0, 1, 0, -0.38999998569489, -0.11999999731779, 0.23999999463558, 1, },
+				},
+			},
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			description = _("zagkks_desc"),
+			name = _("Zagkks (Ermefa) [2000]"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 20000,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			blinkInterval = 500,
+			configs = {
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod0.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 1, 2, },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod1.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 1, 2, },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod2.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_tlbot_694/dg_Tlbot_694_achse_lod3.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+			},
+			engines = { },
+			soundSet = {
+				horn = "",
+				name = "mw_druck",
+			},
+			topSpeed = 33.3,
+			weight = 20,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 88,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ },
+													{ 6, 7, },
+												},
+											},
+											{
+												slotLevels = {
+													{ },
+													{ 4, 5, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "FUEL",
+								},
+							},
+							toHide = { },
+						},
+						{
+							cargoEntries = {
+								{
+									capacity = 88,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+													{ },
+													{ 2, 3, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "PLASTIC",
+								},
+							},
+							toHide = { },
+						},
+					},
+				},
+			},
+			groupFileName = "vehicle/waggon/GasKesselwagen_menu.mdl",
+			loadSpeed = 3,
+			multipleUnitOnly = false,
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end
