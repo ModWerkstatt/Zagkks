@@ -37,7 +37,7 @@ return {
 			price = 0,
 		},
 		description = {
-			name = _("Zagkks"),
+			name = _("menu_Zagkks"),
 		},
 		maintenance = {
 			lifespan = 29220,
